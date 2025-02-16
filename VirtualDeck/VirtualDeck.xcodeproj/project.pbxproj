@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D800772A29B52C9D00A722BF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800772929B52C9D00A722BF /* CardView.swift */; };
+		D800772C29B54C9900A722BF /* CardViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800772B29B54C9900A722BF /* CardViewer.swift */; };
+		D8133D8729B41DA8004468EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8133D8629B41DA8004468EA /* Model.swift */; };
+		D819D47529B3C7CC0017A51A /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819D47429B3C7CC0017A51A /* DeckView.swift */; };
+		D819D47729B3CACE0017A51A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819D47629B3CACE0017A51A /* Settings.swift */; };
+		D836DEA229B3C5B700B2E73A /* VirtualDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D836DEA129B3C5B700B2E73A /* VirtualDeckApp.swift */; };
+		D836DEA429B3C5B700B2E73A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D836DEA329B3C5B700B2E73A /* ContentView.swift */; };
+		D836DEA629B3C5B900B2E73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D836DEA529B3C5B900B2E73A /* Assets.xcassets */; };
+		D836DEA929B3C5B900B2E73A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D836DEA829B3C5B900B2E73A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D800772929B52C9D00A722BF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D800772B29B54C9900A722BF /* CardViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewer.swift; sourceTree = "<group>"; };
+		D8133D8629B41DA8004468EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D819D47429B3C7CC0017A51A /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		D819D47629B3CACE0017A51A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D836DE9E29B3C5B700B2E73A /* VirtualDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D836DEA129B3C5B700B2E73A /* VirtualDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualDeckApp.swift; sourceTree = "<group>"; };
+		D836DEA329B3C5B700B2E73A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D836DEA529B3C5B900B2E73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D836DEA829B3C5B900B2E73A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D87018BC29B6C1F2007FB1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D836DE9529B3C5B700B2E73A = {
+			isa = PBXGroup;
+			children = (
+				D800772B29B54C9900A722BF /* CardViewer.swift */,
+				D800772929B52C9D00A722BF /* CardView.swift */,
+				D8133D8629B41DA8004468EA /* Model.swift */,
+				D819D47629B3CACE0017A51A /* Settings.swift */,
+				D819D47429B3C7CC0017A51A /* DeckView.swift */,
+				D836DEA029B3C5B700B2E73A /* VirtualDeck */,
+				D836DE9F29B3C5B700B2E73A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D836DE9F29B3C5B700B2E73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D836DE9E29B3C5B700B2E73A /* VirtualDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D836DEA029B3C5B700B2E73A /* VirtualDeck */ = {
+			isa = PBXGroup;
+			children = (
+				D87018BC29B6C1F2007FB1F2 /* Info.plist */,
+				D836DEA129B3C5B700B2E73A /* VirtualDeckApp.swift */,
+				D836DEA329B3C5B700B2E73A /* ContentView.swift */,
+				D836DEA529B3C5B900B2E73A /* Assets.xcassets */,
+				D836DEA729B3C5B900B2E73A /* Preview Content */,
+			);
+			path = VirtualDeck;
+			sourceTree = "<group>";
+		};
+		D836DEA729B3C5B900B2E73A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D836DEA829B3C5B900B2E73A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D836DE9D29B3C5B700B2E73A /* VirtualDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D836DEAC29B3C5B900B2E73A /* Build configuration list for PBXNativeTarget "VirtualDeck" */;
+			buildPhases = (
+				D836DE9A29B3C5B700B2E73A /* Sources */,
+				D836DE9C29B3C5B700B2E73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualDeck;
+			packageProductDependencies = (
+			);
+			productName = VirtualDeck;
+			productReference = D836DE9E29B3C5B700B2E73A /* VirtualDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D836DE9629B3C5B700B2E73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D836DE9D29B3C5B700B2E73A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D836DE9929B3C5B700B2E73A /* Build configuration list for PBXProject "VirtualDeck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D836DE9529B3C5B700B2E73A;
+			packageReferences = (
+			);
+			productRefGroup = D836DE9F29B3C5B700B2E73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D836DE9D29B3C5B700B2E73A /* VirtualDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D836DE9C29B3C5B700B2E73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D836DEA929B3C5B900B2E73A /* Preview Assets.xcassets in Resources */,
+				D836DEA629B3C5B900B2E73A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D836DE9A29B3C5B700B2E73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8133D8729B41DA8004468EA /* Model.swift in Sources */,
+				D836DEA429B3C5B700B2E73A /* ContentView.swift in Sources */,
+				D800772C29B54C9900A722BF /* CardViewer.swift in Sources */,
+				D836DEA229B3C5B700B2E73A /* VirtualDeckApp.swift in Sources */,
+				D819D47729B3CACE0017A51A /* Settings.swift in Sources */,
+				D800772A29B52C9D00A722BF /* CardView.swift in Sources */,
+				D819D47529B3C7CC0017A51A /* DeckView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D836DEAA29B3C5B900B2E73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D836DEAB29B3C5B900B2E73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D836DEAD29B3C5B900B2E73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualDeck/Preview Content\"";
+				DEVELOPMENT_TEAM = DQ6QBXBNX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualDeck/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to take picture of card";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save Cards to Photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mdeik.VirtualDeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D836DEAE29B3C5B900B2E73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualDeck/Preview Content\"";
+				DEVELOPMENT_TEAM = DQ6QBXBNX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirtualDeck/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NO;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to take picture of card";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save Cards to Photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mdeik.VirtualDeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D836DE9929B3C5B700B2E73A /* Build configuration list for PBXProject "VirtualDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D836DEAA29B3C5B900B2E73A /* Debug */,
+				D836DEAB29B3C5B900B2E73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D836DEAC29B3C5B900B2E73A /* Build configuration list for PBXNativeTarget "VirtualDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D836DEAD29B3C5B900B2E73A /* Debug */,
+				D836DEAE29B3C5B900B2E73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D836DE9629B3C5B700B2E73A /* Project object */;
+}
